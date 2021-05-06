@@ -1,0 +1,26 @@
+﻿<Page x:Class="ColegioCovid.Ventanas.FrameElegirUso"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ColegioCovid.Ventanas"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="400"
+      Title="FrameElegirUso">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnListar" Content="Listar" Grid.Column="0" Grid.Row="0" Margin="25,100,25,50" 
+            FontSize="30" FontWeight="Bold" Foreground="Black" Click="btnListar_Click"/>
+        <Button x:Name="btnInfectados" Content="Posibles infectados" Grid.Column="0" Grid.Row="1" Margin="25,24,25,126" 
+            FontSize="30" FontWeight="Bold" Foreground="Black" Click="btnInfectados_Click"/>
+        <Button x:Name="btnAtras" Content="Atras" Grid.Column="0" Grid.Row="1" Margin="25,140,25,10" 
+            FontSize="30" FontWeight="Bold" Foreground="Black" Click="btnAtras_Click"/>
+    </Grid>
+</Page>

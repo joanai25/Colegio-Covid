@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ListadoAlumnos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListadoInfectados.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanaAlta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanaAltaAula.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanaEliminar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanaEliminarAula.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanaModificar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="VentanaModificarAula.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\FrameEditar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\FrameEditarAula.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\FrameElegir.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\FrameElegirUso.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ventanas\FramePrincipal.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ListadoAlumnos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListadoInfectados.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanaAlta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanaAltaAula.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanaEliminar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanaEliminarAula.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanaModificar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="VentanaModificarAula.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\FrameEditar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\FrameEditarAula.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\FrameElegir.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\FrameElegirUso.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ventanas\FramePrincipal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
